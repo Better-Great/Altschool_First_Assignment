@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Application Form</title>
+</head>
+<body>
+    <header>
+        <h2>AltSchool Application Form</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="../index.html">About Me </a> </li>
+            <li><a href="./index.html">Apply to AltSchool </a></li>
+        </ul>
+    </nav>
+    <section>
+            <h1>Application Form</h1>
+            <p>Fill in your details</p>
+    </section>
+    <form action="application form" method="post">
+        <!--First and Last Name-->
+        <div>
+            <label for="name">Enter first name</label>
+            <input type="text" placeholder="Enter First Name" name="name" required>
+        </div>
+        <div>
+            <label for="name">Enter Last Name</label>
+            <input type="text" placeholder="Enter last name" name="name"required>
+        </div>   
+        <br><br>
+        <!--For gender and DOB-->
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        
+        <br><br>
+        <!--For email and educational level-->
+        <label for="email">Email Address</label>
+        <input type="email" placeholder="Enter email Address" name="email" required>
+        <label for="educ">
+            <p>Educational Level</p>
+        </label>
+        <div>
+            <select>
+                <option value="0">Select level of education</option>
+                <option value="bsc">Bsc</option>
+                <option value="msc">Msc</option>
+                <option value="diploma">Diploma</option>
+                <option value="doctorate">Doctorate (PhD)</option>
+                <option value="highschool">High School / Secondary School</option>
+                <option value="undergraduate">Under Graduate</option>
+                <option value="junior">Junior / Middle School</option>
+                <option value="postgraduate">Post Graduate</option>
+            </select>
+        <br><br>
+        <!--For country and state of residence-->
+        <label for="country">Country</label>
+        <input form="country" placeholder="select your country" name="country" required>
+        <label for="state">State/City of Residence</label>
+        <input form="state" placeholder="enter your state of residence" name="state" required>
+        <br><br>
+        <!--For Employment status and phone number-->
+        <div>
+            <label for="employment">
+                <p>Employment Status</p>
+            </label>
+            <div>
+                <select>
+                    <option value="0">Select employment status</option>
+                    <option value="employed">employed</option>
+                    <option value="unemployed">unemployed</option>
+                    <option value="self-employed">self-employed</option>
+                </select>
+            </div><br>
+        </div>
+        <label for="tel">Phone Number</label>
+        <input type="tel" placeholder="08154387000" name="phone" required>
+        <br><br>
+        <!--school and choice of study-->
+        <label for="school">Choose School</label>
+        <input type="text" placeholder="select school" name="school" required>
+        <label for="Choose">Choose Course of Study</label>
+        <input form="Choose" placeholder="select course" name="choose" required>
+        <br><br>
+        <!--additional information-->
+        <div>
+            <label for="about-us">
+                <p>How did you hear about us?</p>
+                <p>*</p>
+            </label>
+            <div>
+                <select>
+                    <option value="0">Select channel</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="Instagram">Youtube</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Whatsapp">Whatsapp</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Billboard">Billboard</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div><br>
+        
+        <label for="channel">Scholarship/ Discount Code (optional) </label>
+        <input form="text" placeholder="scholarship or stud.." name="channel">
+        <br><br>
+        <section>
+            <p>By clicking continue, I agree to <a href="*">Terms of Use</a> and acknowledge that I have read the <a href="*"> Privacy Policy.</a></p>
+        </section>
+
+        <section>
+            <div>
+                <button type="submit">Proceed</button>
+            </div>
+        </section>
+        <div>
+            <span><p>Already have an account?</p><a href="*">Sign In</a></span>
+        </div>
+        
+
+    </form>
+    
+</body>
+</html>
